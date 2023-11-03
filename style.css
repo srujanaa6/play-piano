@@ -1,0 +1,104 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.key
+{
+ 
+  list-style: none;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  text-transform: uppercase;
+    
+}
+
+.white
+{
+  
+    width: 70px;
+    height: 240px;
+    border-radius: 6px;
+    border: 1px solid grey;
+    background-color:white;
+    background: linear-gradient(#fff 96%, #eee 4%);
+    /* height: 230px;
+  width: 70px;
+  border-radius: 8px;
+  border: 1px solid #000;
+   */
+}
+
+.piano-keys  {
+ 
+    display: flex;
+    margin-top: -40px;
+  }
+
+    
+.logo-1 p {
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    color: #425b75;
+    font-weight: 600;
+   
+}
+.logo-holder
+{
+    margin: 10px;
+    padding: 15px;
+}
+.card
+{
+    border-radius: 10px;
+    background-color:black;
+    margin-top: 80px;
+    padding: 10px;
+    background: linear-gradient(#141414, #000);
+}
+.piano-keys .key span {
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
+    padding-left: 8px;
+    color: #A2A2A2;
+    font-size: 0.6rem;
+    text-align: center;
+  }
+h1{
+    text-align: center;
+    color: white;
+}
+.black
+{
+ 
+
+    z-index: 2;
+    border-radius: 3px;
+   
+    width: 40px;
+   
+    margin: 0 -20px 0 -20px;
+    height: 140px;
+    background-color: black;
+    border-radius: 0 0 5px 5px;
+    background: linear-gradient(#333, #000);
+    /* z-index: 2;
+  width: 44px;
+  height: 140px;
+  margin: 0 -22px 0 -22px;
+  
+   */
+
+}
+.white.active {
+    background-color: #ccc;
+}
+
+.black.active {
+    background-color: #333;
+}
